@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 42 - while</title>
+</head>
+
+<body>
+    <script>
+        var age = [17, 19, 20, 86, 99, 77, 23];
+
+        function show(count) {
+            return count >= 18
+        }
+
+        var element = age.every(show);
+
+        if (element == true) {
+            document.write("All Users are older than 18");
+        } else {
+            document.write("Some Users are younger than 18");
+        }
+    </script>
+</body>
+
+</html>

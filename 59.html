@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 58 </title>
+</head>
+
+<body>
+    <script>
+        var elements = [20, 30, 40, 50, 60, 70];
+        //adds new elements to the end of an array or object
+        function formula(summ, digit) {
+            return summ + digit;
+        }
+        // summs from the end element of right
+        var incrementFormula = 100;
+        var result = elements.reduceRight(formula, incrementFormula);
+
+        document.write("Result: " + result);
+    </script>
+</body>
+
+</html>

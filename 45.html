@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 45 </title>
+</head>
+
+<body>
+    <script>
+        var ages = [110, 120, 140, 160, 17, 19, 20, 86, 99, 77, 23];
+
+        document.write("normal list : " + ages + "<br> <br>");
+
+        function show(find) {
+            return find < 18
+        }
+        //finds first digit lesser than 18
+        document.write("finded ages : " + ages.find(show));
+    </script>
+</body>
+
+</html>
