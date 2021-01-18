@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 58 </title>
+</head>
+
+<body>
+    <script>
+        var elements = [100, 1002, 20, 77, 30, 51, 40, 32, 50, 55, 60, 70];
+
+        function sortAll(a, b) {
+            return a - b;
+        }
+        elements.sort(sortAll);
+        document.write(elements.sort(sortAll) + "<br>");
+        //adds new element to the beginning of array
+        elements.unshift(5);
+        document.write(elements.sort(sortAll) + "<br>");
+    </script>
+</body>
+
+</html>
