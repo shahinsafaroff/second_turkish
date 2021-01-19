@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 75 </title>
+</head>
+
+<body>
+    <script>
+        function human(name, surname, age) {
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+
+        }
+
+        var newHuman = new human("shahin", "safaroff", 34);
+        var newHuman2 = new human("zuber", "azazel", 26);
+        newHuman.height = 185;
+
+        document.write(newHuman.age + "<br>");
+        document.write(newHuman2.age + "<br>");
+        document.write(newHuman.day + "<br>");
+    </script>
+</body>
+
+</html>

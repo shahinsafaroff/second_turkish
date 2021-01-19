@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lesson 58 </title>
+</head>
+
+<body>
+    <script>
+        var objectName = {
+            brand: "Mercedes",
+            color: "Metallic",
+            date: 2004,
+            model: "E240",
+        };
+        var car = objectName;
+        car.mileage = 200000;
+
+        var auto = objectName;
+        auto.consumption = 13;
+
+
+        document.write(car.brand + "<br>");
+        document.write(auto.color + "<br>");
+        document.write(car.consumption + "<br>");
+    </script>
+</body>
+
+</html>
